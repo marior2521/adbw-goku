@@ -20,7 +20,7 @@ jwplayer("player").setup({
   }],
   allowfullscreen: true,
   width: '100%',
-  aspectratio: '16:9',
+  aspectratio: '4:3',
 });
 </script>
 </body>
