@@ -10,7 +10,7 @@ $url = isset($_GET['url']) ? htmlspecialchars($_GET['url']) : null;
 </head>
 <body>
 <div id="player"></div>
-<script src="https://alldragonballworldapi.netlify.app/js/playerjs.js"></script>
+<script src="https://content.jwplatform.com/libraries/219E3gkh.js"></script>
 <script>
 jwplayer("player").setup({
   playlist: [{
