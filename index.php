@@ -12,7 +12,7 @@ $url = isset($_GET['url']) ? htmlspecialchars($_GET['url']) : null;
         }
     </style>
 <div id="player" style="width:100%;height:100%;"></div>
-<script src="https://content.jwplatform.com/libraries/219E3gkh.js"></script>
+<script src="https://vjs.zencdn.net/7.17.0/video.min.js"></script>
 <script>
 jwplayer("player").setup({
   playlist: [{
